@@ -1,0 +1,156 @@
+/*common css start*/
+body{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+/*common css end*/
+/*header start*/
+header{
+	background: #121b2a;
+	padding: 10px 0;
+
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+ width: 15%;
+ float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	
+	width: 60%;
+	float: right;
+	padding: 15px 0;
+
+}
+.menu ul{
+	float: right;
+	
+}
+.menu ul li{
+	list-style: none;
+
+	float: left;
+	
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+	display: block;
+	margin: 0 25px;
+}
+.menu ul li a:hover{
+	color: #0278bd;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+
+/*header end*/
+/*Section start*/
+/*banner start*/
+.banner{
+	background-image: url(../images/blue.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.b_content{
+	margin: 300px 0 150px 0px;
+	width: 40%;
+}
+.b_content p:first-child{
+	
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 5px 0px;
+}
+
+.b_content h1{
+	 font-size: 31px;
+	text-transform: capitalize;
+	color: #0177bc;
+	margin: 0px;
+}
+.b_content p:nth-last-child(2){
+	
+	line-height: 26px;
+
+
+}
+.b_content button{
+	border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #828282;
+    width: 40%;
+}
+
+/*banner end*/
+/*service start*/
+.service {
+	background-color: #121B2C;
+}
+
+
+.single {
+	width: 30%;
+	float: left;
+	margin: 0px 2%;
+}
+.single:first-child{
+	margin-left: 0px;
+	
+}
+.single p span {
+	display: inline-block;
+	float: left;
+}
+.single h1 span{
+	display: inline-block;
+	float: right;
+}
+.title {
+	overflow: hidden;
+}
+
+.icon {
+	float: left;
+	display: inline-block;
+	width: 20%;
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	float: left;
+}
+.title p{
+	font-size: 26px;
+	margin: 0px;
+
+}
+.title h1{
+	margin: 0px;
+	color: #0177bc;
+
+}
+.content p{
+	line-height: 25px;
+}
+/*service end*/
